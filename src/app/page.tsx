@@ -1,8 +1,9 @@
-
 export default function Home() {
+
+ 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-<h1>Teste</h1>
-    </main>
+    <div className="bg-cover bg-gradient-to-r from-cyan-500 to-blue-500 h-screen">
+
+    </div>
   )
 }

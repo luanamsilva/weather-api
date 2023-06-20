@@ -27,7 +27,7 @@ export const Search = () => {
       const response = await api.get('/weather', {
         params: {
           q: city,
-          appid: 'e0700fb3877f75d799b50da0ea1d34d8',
+          appid: process.env.NEXT_PUBLIC_KEY,
         },
       });
       setWeatherData(response.data);

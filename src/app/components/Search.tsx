@@ -50,7 +50,7 @@ export const Search = () => {
     showDetails();
   };
   if (loading === true) {
-    return <div>Carregando...</div>;
+    return <div className='text-white'>Carregando...</div>;
   }
 
   const translatedDescription =
@@ -144,7 +144,7 @@ export const Search = () => {
         <div>
         
           <div className="flex items-center justify-center h-screen text-gray-200 text-lg flex-col ">  
-            <h1 className='text-xl'>{weatherData.name}</h1>
+            <h1 className='text-xl text-blue-950 p-3'>{weatherData.name}</h1>
           {image}
         
             <p>Previsão do tempo na cidade de {weatherData.name}</p>

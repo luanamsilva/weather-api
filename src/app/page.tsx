@@ -1,21 +1,12 @@
-"use client"
-import {Search} from './components/Search'
-
-
+'use client';
+import { Search } from '../../Search';
 
 export default function Home() {
-
-
- return (
+  return (
     <div className="bg-cover  bg-gradient-to-r from-cyan-500 to-blue-500 w-screen h-screen">
-      
       <div className="rounded-lg flexflex-col h-full">
-     <Search/> 
-    
+        <Search />
       </div>
-      
-    
-
     </div>
-  )
+  );
 }

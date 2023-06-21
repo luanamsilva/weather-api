@@ -126,7 +126,7 @@ export const Search = () => {
       <div className="flex justify-center">
         <form
           onSubmit={handleSubmit}
-          className=" flex w-full items-center justify-center max-w-md bg-white shadow-md rounded px-8 pt-2 pb-2 m-4"
+          className=" flex w-full items-center justify-center max-w-md bg-white shadow-md rounded px-8 pt-2 pb-2 mt-20"
         >
           <input
             className="rounded-md border-none focus:outline-none text-gray-600"
@@ -139,7 +139,11 @@ export const Search = () => {
         </form>
       </div>
       {weatherData == null ? (
-        <div className="flex flex-col items-center justify-center h-screen w-screen"></div>
+        <div className="flex flex-col items-center justify-center h-screen w-screen">
+       <h1 className="text-gray-100 text-2xl  pb-8">Descubra a previsão do tempo em qualquer cidade</h1>
+     
+   <Image src='/forecast.png' alt='imagesForecast' width={500}  height={400}/>
+        </div>
       ) : (
         <div>
         
@@ -154,8 +158,9 @@ export const Search = () => {
               <span>{Math.ceil(weatherData.main.feels_like - 273.15)} </span>ºC
             </p>
             <p>
-              Humidade: {weatherData.main.humidity}% : {messageHumidity}
+              Humidade: {weatherData.main.humidity}% 
             </p>
+            <p>{messageHumidity}</p>
             <p>{translatedDescription}</p>
           </div>
         </div>

@@ -1,3 +1,9 @@
+
+![Screenshot from 2023-08-05 09-58-58](https://github.com/luanamsilva/weather-api/assets/83930333/f0b89e66-90e7-4025-bb45-a6411fd712c3)
+
+
+![Screenshot from 2023-08-05 09-59-26](https://github.com/luanamsilva/weather-api/assets/83930333/2aa461e4-9fc6-49b7-8cb8-71e087daf3a4)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
